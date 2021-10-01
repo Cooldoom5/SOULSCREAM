@@ -300,7 +300,7 @@ public class Soulsong : MonoBehaviour {
 	{
 		while (!final)
 		{ //Wait until submission time
-			yield return false;
+			yield return true;
 		}
 		for (int i = input.Length; i < Answer.Length; i++)
 		{
